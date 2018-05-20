@@ -1,5 +1,5 @@
 Welcome to Turing Machine Simulator..
-Developed by Karim Gabr | 2082
+Developed by Karim Gabr
 
 The program includes Java library: http://commons.apache.org/proper/commons-lang/
 
