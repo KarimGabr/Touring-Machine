@@ -1,0 +1,62 @@
+Welcome to Turing Machine Simulator...
+Developed by Karim Gabr | 2082
+
+1. Please Specify the Turing Machine Tuples:
+Please Enter Number of States
+3
+TM States: [q0, q1, q2]
+
+2. Please enter Number of Machine Alphabet
+2
+Please enter the 2 Machine Symbols
+a
+b
+TM Machine Alphabet: [a, b]
+
+3. Please enter Number of Input Alphabet
+2
+Please enter the 2 Input Symbols
+a
+b
+TM Input Alphabet: [a, b, #]
+
+4. Please enter Number of Transitions:
+4
+
+4. Please enter the 4 Transitions in the following format:
+current_state,machine_symbol,next_state,input_symbol,tape_head_next_direction
+example: q1,a,q2,b,R
+q0,a,q1,a,R
+q1,b,q2,b,R
+q2,a,q2,a,R
+q2,#,q2,#,Y
+TM Transition Table: [[q0, a, q1, a, R], [q1, b, q2, b, R], [q2, a, q2, a, R], [q2, #, q2, #, Y]]
+
+5. Please enter the TM tape initial configuration in the following format: :
+initial_head_position,initial_state,start_tape_symbol1,tape_symbol2,tape_symbol3
+example: 1,q0,a,a,a
+0,q0,a,b,a,a,a
+TM tape initial configuration: [a, b, a, a, a]
+TM tape initial state: q0
+TM tape initial head location: 0
+
+Active Cell: 0
+Input Symbol: a
+Current Tape: [a, b, a, a, a]
+Active Cell: 1
+Input Symbol: b
+Current Tape: [a, b, a, a, a]
+Active Cell: 2
+Input Symbol: a
+Current Tape: [a, b, a, a, a]
+Active Cell: 3
+Input Symbol: a
+Current Tape: [a, b, a, a, a]
+Active Cell: 4
+Input Symbol: a
+Current Tape: [a, b, a, a, a]
+Active Cell: 5
+Input Symbol: #
+Current Tape: [a, b, a, a, a, #]
+
+ACCEPT TAPE.. RETURN TRUE
